@@ -1,0 +1,192 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Georgia;
+}
+
+/*menu*/
+
+.up{
+	width: 100%;
+	display: flex;
+	padding-left: 20%;
+	position: fixed;
+	background: #fff;
+	display: flex;
+}
+.titleimage{
+	width: 20%;
+}
+.titleimage img{
+	width: 70%;
+}
+.button{
+	display: flex;
+	position: -webkit-sticky;
+	position: sticky;
+	top: .1px;
+	width: 100%;
+
+}
+.button a{
+	margin-left: 7%;
+	margin-top: .7%;
+	text-decoration: none;
+	font-size: 20px;
+	color: #000;
+}
+
+/*presentation*/
+.wall{
+	width: 100%;
+}
+
+.wall img{
+	padding-top:2%;
+	width: 100%;
+	height: 500px;
+}
+
+/*tree*/
+.tree{
+	width: 100%;
+}
+
+.tree .text1{
+	font-size: 20px;
+	text-align: center;
+	padding-top: 1%;
+}
+
+.tree .text2{
+	font-size: 40px;
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+/*off*/
+.tres {
+	margin-left: 19%;
+	margin-right: 19%;
+	margin-bottom: 3%;
+	margin-top: 5%;
+}
+
+.tres img{
+	width: 32%;
+	height: 400px;
+	padding: .5%;
+}
+
+
+/*end*/
+.end{
+	background: black;
+	color: #fff;
+	text-align: center;
+}
+
+.social{
+	background: black;
+	display: flex;
+	justify-content: center;
+}
+.social img{
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+
+/*----------------------*/
+
+@media screen and (min-width: 1px) and (max-width: 599px){
+	.up{
+		display: block;
+		padding-left: 10%;
+		height: 100px;
+	}
+	.titleimage {
+		display: block;
+		margin-left: 10%;
+		width: 350px;
+		height: 60px;
+
+	}
+	.button{
+		display: block;
+	}
+
+	.button a{
+	margin-left: 1%;
+	margin-top: 1px;
+	padding: 1%;
+	border-radius: 10px;
+	background: #f2f2f2;
+	}
+	/*presentation*/
+
+	.wall img{
+		padding-top:20%;
+		width: 100%;
+		height: 400px;
+	}
+
+	/*off*/
+.tres {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 3%;
+	margin-top: 100px;
+}
+
+.tres img{
+	width: 30%;
+	height: 200px;
+	padding: .5%;
+	}
+
+}
+
+@media screen and (min-width:600px) and (max-width: 1230px){
+	.up{
+		display: block;
+		padding-left: 10%;
+		height: 80px;
+	}
+	.titleimage {
+		display: block;
+		margin-left: 20%;
+		width: 350px;
+		height: 60px;
+		margin-bottom: 10px;
+
+	}
+	.button{
+		display: block;
+	}
+
+	.button a{
+	margin-left: 7%;
+	margin-top: .1px;
+	padding: 1%;
+	border-radius: 10px;
+	background: #f2f2f2;
+	}
+
+	/*off*/
+.tres {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 3%;
+	margin-top: 150px;
+}
+
+.tres img{
+	width: 30%;
+	height: 400px;
+	padding: .5%;
+	}
+
+}
